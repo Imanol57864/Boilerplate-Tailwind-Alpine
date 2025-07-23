@@ -1,0 +1,6 @@
+npm init -y
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init
+-> editas tailwind.config.js
+npx tailwindcss -i ./public/css/tailwindHelper.css -o ./public/css/tailwind.css --minify
+-> delete tailwind.css, run incognito browser, create tailwind.css, run incognito browser
